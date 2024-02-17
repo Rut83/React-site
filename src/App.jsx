@@ -11,8 +11,9 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
+          <Route path="/react-site" element={<Home/>}/>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/react-site/about" element={<About/>}/>
         </Routes>
       </Router>
       <Footer/>
