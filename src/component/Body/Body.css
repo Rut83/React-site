@@ -26,3 +26,27 @@
     margin-top: 20px;
     font-size: 20px;
 }
+
+@media (max-width:1100px) {
+    .image{
+        width: 200px;
+    }
+    .Home-main{
+        display: block;
+        text-align: center;
+    }
+    .footer{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .Home-h1{
+        font-size: 20px;
+    }
+    .nav-left{
+        font-size: 20px;
+    }
+    .nav-li{
+        padding: 0px 10px;
+    }
+}

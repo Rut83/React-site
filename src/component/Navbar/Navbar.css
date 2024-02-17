@@ -34,5 +34,21 @@
     color: white;
     scale: 110%;
 }
+@media (max-width:800px) {
+    .nav-left{
+        font-size: 20px;
+    }
+    .nav-li{
+        padding: 0px 10px;
+    }
+}
+@media (max-width:550px) {
+    .nav-name-left{
+        font-size: 20px;
+    }
+    .nav-li{
+        padding: 0px 5px;
+    }
+}
 
 
